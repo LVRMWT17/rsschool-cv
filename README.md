@@ -1,1 +1,1 @@
-https://LVRMWT17.github.io/rsschool-cv/cv
+https://LVRMWT17.github.io/rsschool-cv/
