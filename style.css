@@ -11,7 +11,7 @@ body {
     background-color: #fbefe1;
 }
 
-h2 {
+h2, h1 {
     font-size: 25px;
     font-family: "Ultra", serif;
     line-height: 30px;
@@ -43,7 +43,6 @@ li, p {
     flex-direction: row;
     display: flex;
     width: 1500px;
-    border: 1px black solid;
 }
 
 .sectionFirstContent p {
@@ -103,7 +102,7 @@ li, p {
 .sectionFirst img {
     height: 550px;
     width: auto;
-    margin-left: 250px;
+    margin-left: 240px;
     margin-top: 60px;
 }
 
@@ -116,6 +115,81 @@ li, p {
     height: 700px;
 }
 
+.secondSectionContent {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 200px;
+}
+
+.secondSectionContent div:nth-child(1) {
+    margin-top: 120px;
+}
+
+.secondSectionContent p{
+    margin-top: 25px;
+    width: 530px;
+    font-size: 35px;
+}
+
+.secondSectionContent h1, .secondSectionContent h2 {
+    font-size: 70px;
+    color: #010b13;
+    line-height: 90px;
+    font-weight: 100;
+    letter-spacing: 3px;
+}
+
+.githubLink {
+    background-color: #fbb728;
+    border-radius: 20px;
+    height: 35px;
+    width: 315px;
+}
+
+.githubLink p {
+    font-size: 24px;
+    padding: 3px 0 10px 25px;
+}
+
+.githubLink a {
+    text-decoration: none;
+    color: #010b13;
+}
+
+.githubLink a:hover {
+    color: #4b3935;
+    transition: transform 4s;
+}
+
+.secondPhoto {
+    height: 680px;
+    width: 410px;
+    background-color: #4b3935;
+    display: flex;
+    align-items: center;
+    margin-top: 140px;
+    flex-direction: column;
+}
+
+.secondPhoto div {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    width: 300px;
+}
+
+.secondPhoto p {
+    font-size: 25px;
+    color: #fbefe1;
+}
+
+.secondSectionContent img {
+    height: 450px;
+    width: auto;
+    margin-top: 35px;
+}
+
 .sectionFourth {
     height: 700px;
     background-color: #8c9657;
@@ -123,4 +197,14 @@ li, p {
 
 .sectionFifth {
     height: 500px;
+}
+
+@media (max-width: 1024px) {
+    .sectionFirst img {
+        margin-left: 140px;
+    }
+    .sectionText h2{
+        font-size: 60px;
+        padding: 20px;
+    }
 }
