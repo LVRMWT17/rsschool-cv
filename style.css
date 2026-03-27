@@ -3,8 +3,28 @@
     margin: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: #fbefe1;
+}
+
+h2 {
+    font-size: 25px;
+    font-family: "Ultra", serif;
+    line-height: 30px;
+    font-weight: 400;
+    font-style: normal;
+    color: #fbefe1;
+}
+
+li, p {
+    font-family: "Alumni Sans Pinstripe", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 25px;
 }
 
 .starImg {
@@ -14,19 +34,28 @@ body {
 
 .main-header {
     height: 100px;
-    background-color: #8c9657;
+    background-color: #4b3935;
     display: flex;
     justify-content: center;
 }
 
-.headerContent {
+.headerContent, .sectionFirstContent{
     flex-direction: row;
     display: flex;
     width: 1500px;
     border: 1px black solid;
 }
 
-.headerContent p {
+.sectionFirstContent p {
+    margin-top: 115px;
+    font-size: 30px;
+    text-align: end;
+    color: #fbefe1;
+    letter-spacing: 2px;
+    max-width: 650px;
+}
+
+.headerContent h2 {
     margin: 35px 0 0 20px;
 }
 
@@ -44,13 +73,38 @@ body {
 .navigation a {
     text-decoration: none;
     color: #fbefe1;
-    margin: 20px;
-    padding: 20px;
+    padding: 12px;
 }
 
 .sectionFirst {
     height: 500px;
-    background-color: #8c9657;
+    background-color: #4b3935;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.sectionText {
+    margin-top: 35px;
+    margin-left: -100px;
+}
+
+.sectionText h2{
+    font-size: 80px;
+    padding: 20px;
+    letter-spacing: 10px;
+}
+
+.sectionText h2:nth-child(n+2):nth-child(-n+4) {
+    color: transparent;
+    -webkit-text-stroke: 2px #fbefe1;
+}
+
+.sectionFirst img {
+    height: 550px;
+    width: auto;
+    margin-left: 250px;
+    margin-top: 60px;
 }
 
 .sectionSecond {
