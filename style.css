@@ -1,0 +1,969 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #fbefe1;
+}
+
+h2, h1 {
+    font-size: 25px;
+    font-family: "Ultra", serif;
+    line-height: 30px;
+    font-weight: 400;
+    font-style: normal;
+    color: #fbefe1;
+}
+
+li, p {
+    font-family: "Alumni Sans Pinstripe", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 25px;
+}
+
+.starImg {
+    height: 50px;
+    margin: 20px 0 0 20px;
+}
+
+.main-header, .main-footer {
+    height: 100px;
+    background-color: #4b3935;
+    display: flex;
+    justify-content: center;
+}
+
+.headerContent, .sectionFirstContent{
+    flex-direction: row;
+    display: flex;
+    width: 1500px;
+}
+
+.sectionFirstContent p {
+    margin-top: 115px;
+    font-size: 30px;
+    text-align: end;
+    color: #fbefe1;
+    letter-spacing: 2px;
+    max-width: 650px;
+}
+
+.headerContent h2 {
+    margin: 35px 0 0 20px;
+}
+
+.navigation {
+    margin-left: auto;
+}
+
+.navigation ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin: 35px;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #fbefe1;
+    padding: 12px;
+}
+
+.navigation a:hover {
+    color: #f6a64a;
+    transition: transform 3s ease;
+}
+
+.sectionFirst {
+    height: 500px;
+    background-color: #4b3935;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.sectionText {
+    margin-top: 35px;
+    margin-left: -100px;
+}
+
+.sectionText h2{
+    font-size: 80px;
+    padding: 20px;
+    letter-spacing: 10px;
+}
+
+.sectionText h2:nth-child(n+2):nth-child(-n+4) {
+    color: transparent;
+    -webkit-text-stroke: 2px #fbefe1;
+}
+
+.sectionFirst img {
+    height: 550px;
+    width: auto;
+    margin-left: 240px;
+    margin-top: 60px;
+}
+
+.sectionSecond {
+    height: 200px;
+    background-color: #010b13;
+}
+
+.sectionThird {
+    height: 700px;
+}
+
+.secondSectionContent {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 200px;
+}
+
+.secondSectionContent div:nth-child(1) {
+    margin-top: 120px;
+}
+
+.secondSectionContent p{
+    margin-top: 25px;
+    width: 530px;
+    font-size: 35px;
+}
+
+.secondSectionContent h1, .secondSectionContent h2 {
+    font-size: 70px;
+    color: #010b13;
+    line-height: 90px;
+    font-weight: 100;
+    letter-spacing: 3px;
+}
+
+.githubLink {
+    background-color: #fbb728;
+    border-radius: 20px;
+    height: 35px;
+    width: 315px;
+}
+
+.githubLink p {
+    font-size: 24px;
+    padding: 3px 0 10px 25px;
+}
+
+.githubLink a {
+    text-decoration: none;
+    color: #010b13;
+}
+
+.githubLink a:hover {
+    color: #4b3935;
+    transition: transform 3s ease;
+}
+
+.secondPhoto {
+    height: 680px;
+    width: 410px;
+    background-color: #4b3935;
+    display: flex;
+    align-items: center;
+    margin-top: 140px;
+    flex-direction: column;
+}
+
+.secondPhoto div {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    width: 300px;
+}
+
+.secondPhoto ul {
+    list-style-type: none;
+    margin-top: 25px;
+}
+
+.secondPhoto li {
+    font-size: 25px;
+    color: #fbefe1;
+    margin-top: 15px;
+}
+
+.secondSectionContent img {
+    height: 450px;
+    width: auto;
+    margin-top: 35px;
+}
+
+.sectionFourth {
+    height: 700px;
+    background-color: #546745;
+}
+
+.sectionFourthContent {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 130px;
+}
+
+.educationContent h2 {
+    font-size: 55px;
+    margin-top: 90px;
+    color: #010b13;
+    -webkit-text-stroke: 1px #fbefe1;
+}
+
+.degree h2, .courses h2 {
+    font-size: 25px;
+    margin-top: 40px;
+    margin-left: 10px;
+    color: #fbefe1;
+    -webkit-text-stroke: 0;
+}
+
+.educationList img {
+    height: 25px;
+    width: auto;
+    margin-top: 42px;
+}
+
+.educationList p {
+    margin-left: 10px;
+    letter-spacing: 1px;
+    margin-top: 5px;
+}
+
+.degree, .courses {
+    display: flex;
+    flex-direction: row;
+}
+
+.experienceContent {
+    width: 550px;
+    height: 350px;
+    background-color:#fbb728;
+    margin-top: 21px;
+}
+
+.experienceContent h2 {
+    -webkit-text-stroke: 0;
+    color: #010b13;
+    font-size: 45px;
+    margin-top: 0;
+    padding: 50px 0 0 50px;
+}
+
+.experienceContent p {
+    font-size: 25px;
+    padding: 15px 0 0 50px;
+}
+
+.work h2, .freelancer h2 {
+    -webkit-text-stroke: 1px #282a2c;
+    color:#fbefe1;
+    font-size: 25px;
+    margin-top: 10px;
+    padding: 35px 0 0 50px;
+}
+
+.secondEducationContent {
+    margin-top: 190px;
+}
+
+.secondEducationContent h2 {
+    font-size: 40px;
+    color:#fbb728;
+    background-color:#010b13;
+    border-radius: 25px;
+    padding: 20px;
+}
+
+.softSkills, .hardSkills {
+    margin-top: 50px;
+}
+
+.softSkills h2, .hardSkills h2 {
+    font-size: 25px;
+    color: #fbefe1;
+    background-color: #546745;
+    padding: 0; 
+    letter-spacing: 2px;
+}
+
+.skillsContent {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.skillsContent ul {
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+.skillsContent li {
+    letter-spacing: 2px;
+}
+
+.sectionFifth {
+    height: 500px;
+}
+
+.fifthSectionContent {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 180px;
+}
+
+.codeContent {
+    width: 550px;
+    height: 470px;
+    background-color:#fbb728;
+}
+
+.codeContent h2 {
+    padding: 10px 0 0 50px;
+    -webkit-text-stroke: 1px #282a2c;
+    font-size: 28px;
+}
+
+.codeContent ul {
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.projects {
+    width: 400px;
+}
+
+.projects h2 {
+    font-size: 40px;
+    color: #010b13;
+    margin-top: 30px;
+}
+
+.codeContent ul, .projects ul{
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+.projects a {
+    text-decoration: none;
+    color: #010b13;
+}
+
+.projects a:hover {
+    color: #4b3935;
+}
+
+.footerContent {
+    display: flex;
+    align-items: center;
+    gap: 200px;
+}
+
+.main-footer img {
+    height: 50px;
+    width: auto;
+}
+
+.main-footer a {
+    text-decoration: none;
+    color: #fbefe1;
+}
+.main-footer a:hover {
+    color: #f6a64a;
+}
+
+.codeContent li {
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+@media (max-width: 1400px) {
+    .sectionFirst img {
+        margin-left: 160px;
+    }
+}
+
+@media (max-width: 1260px) {
+    .sectionFirst img {
+        margin-left: 100px;
+    }
+    .sectionText h2{
+        font-size: 60px;
+        padding: 20px;
+    }
+
+    .secondSectionContent {
+        gap: 50px;
+    }
+
+    .sectionFirstContent p {
+        margin-right: 50px;
+    }
+
+    .sectionFourthContent {
+        gap: 60px;
+    }
+
+    .fifthSectionContent {
+        gap: 110px;
+    }
+}
+
+@media (max-width: 1155px) {
+    .sectionFourthContent {
+        gap: 30px;
+    }
+
+    .projects {
+        width: 350px;
+    }
+
+    .fifthSectionContent {
+        gap: 130px;
+    }
+
+    .experienceContent {
+        width: 450px;
+    }
+
+    .codeContent {
+        width: 450px;
+    }
+}
+
+@media (max-width: 1024px) {
+
+    .sectionText {
+        margin-left: -170px;
+    }
+
+    .sectionText h2 {
+        letter-spacing: 5px;
+        font-size: 50px;
+    }
+
+    .sectionFirstContent p {
+        font-size: 25px;
+    }
+
+    .sectionFirstContent {
+        gap: 45px;
+    }
+
+    .secondSectionContent h1, .secondSectionContent h2 {
+        font-size: 50px;
+        line-height: 70px;
+    }
+
+    .secondSectionContent p {
+        font-size: 25px;
+        width: 400px;
+    }
+
+    .secondPhoto {
+        width: 350px;
+        height: 630px;
+    }
+
+    .secondPhoto img {
+        height: 390px;
+    }
+
+    .footerContent {
+        gap: 150px;
+    }
+
+    .main-footer img {
+        height: 30px;
+    }
+
+    .educationContent h2 {
+        font-size: 40px;
+    }
+
+    .degree h2, .courses h2 {
+        font-size: 20px;
+    }
+
+    .educationList p {
+        font-size: 18px;
+    }
+
+    .secondEducationContent h2 {
+        font-size: 30px;
+    }
+
+    .softSkills h2, .hardSkills h2 {
+        font-size: 20px;
+    }
+
+    .skillsContent li {
+        font-size: 18px;
+    }
+
+    .skillsContent {
+        gap: 30px;
+    }
+
+    .experienceContent {
+        width: 380px;
+        margin-top: 38px;
+    }
+
+    .experienceContent h2{
+        padding: 25px 0 0 25px;
+        font-size: 30px;
+    }
+
+    .work h2, .freelancer h2 {
+        padding: 30px 0 0 25px;
+        font-size: 25px;
+    }
+
+    .codeContent {
+        width: 380px;
+    }
+
+    .codeContent li {
+        font-size: 20px;
+    }
+
+    .fifthSectionContent {
+        gap: 32px;
+    }
+}
+
+@media (max-width: 835px) {
+    .sectionFirst img {
+        margin-left: 70px;
+        height: 450px;
+    }
+
+    .sectionFirstContent p {
+        font-size: 20px;
+    }
+
+    .footerContent {
+        gap: 80px;
+    }
+
+    .secondSectionContent p {
+        width: 270px;
+    }
+
+    .githubLink a {
+        font-size: 20px;
+    }
+
+    .githubLink {
+        width: 270px;
+    }
+
+    .secondPhoto {
+        width: 290px;
+        height: 580px;
+    }
+
+    .secondPhoto img {
+        margin-top: 25px;
+        width: 250px;
+        height: auto;
+    }
+
+    .secondPhoto li {
+        font-size: 20px;
+    }
+
+    .secondSectionContent {
+        gap: 35px;
+    }
+
+    .secondEducationContent h2 {
+        font-size: 20px;
+    }
+
+    .skillsContent {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .secondEducationContent {
+        margin-top: 70px;
+    }
+
+    .softSkills, .hardSkills {
+        margin-top: 25px;
+    }
+
+    .experienceContent, .codeContent {
+        width: 300px;
+    }
+    .projects {
+        width: 150px;
+    }
+
+    .projects h2 {
+        font-size: 25px;
+    }
+
+    .projects li {
+        font-size: 20px;
+    }
+
+    .fifthSectionContent {
+        gap: 131px;
+    }
+
+    .codeContent h2 {
+        padding: 10px 0 0 25px;
+    }
+}
+
+@media (max-width: 725px) {
+
+    .headerContent h2 {
+        font-size: 20px;
+    }
+
+    .navigation a {
+        font-size: 20px;
+    }
+
+    .sectionFirstContent p {
+        font-size: 17px;
+    }
+
+    .sectionText h2 {
+        letter-spacing: 3px;
+        font-size: 40px;
+    }
+    .sectionFirstContent {
+        gap: 20px;
+    }
+
+    .sectionFirst img {
+        margin-left: 45px;
+    }
+
+    .footerContent {
+        gap: 50px;
+    }
+
+    .secondPhoto div {
+        width: 190px;
+        margin-left: 20px;
+    }
+
+    .secondPhoto li {
+        margin-top: 5px;
+        font-size: 17px;
+    }
+
+    .secondSectionContent {
+        gap: 10px;
+    }
+
+    .secondPhoto img {
+        width: 170px;
+        height: auto;
+    }
+
+    .secondPhoto {
+        width: 190px;
+        height: 400px;
+    }
+
+    .sectionFourthContent {
+        gap: 15px;
+    }
+
+    .fifthSectionContent {
+        gap: 115px;
+    }
+}
+
+@media (max-width: 593px) {
+    .starImg {
+        height: 30px;
+        margin: 30px 0 0 20px;
+    }
+
+    .headerContent h2 {
+        font-size: 15px;
+    }
+
+    .navigation a {
+        font-size: 15px;
+    }
+
+    .sectionFirst img {
+        margin-left: 25px;
+        height: 400px;
+    }
+
+    .sectionText h2 {
+        letter-spacing: 1px;
+        font-size: 35px;
+        padding: 0 0 10px 0;
+    }
+
+    .sectionText {
+        margin-left: -100px;
+    }
+
+    .sectionFirstContent {
+        gap: 0;
+    }
+
+    .secondSectionContent h1, .secondSectionContent h2 {
+        font-size: 35px;
+    }
+
+    .secondSectionContent p{
+        width: 220px;
+    }
+    .secondSectionContent div:nth-child(1) {
+        margin-top: 80px;
+    }
+
+    .secondEducationContent h2 {
+        font-size: 15px;
+    }
+
+    .degree h2, .courses h2 {
+        font-size: 15px;
+    }
+
+    .experienceContent h2 {
+        font-size: 20px;
+    }
+
+    .experienceContent, .codeContent {
+        width: 280px;
+    }
+
+    .educationList p, .skillsContent li, .experienceContent p {
+        font-size: 15px;
+    }
+
+    .experienceContent h2, .codeContent li {
+        font-size: 18px;
+    }
+
+    .fifthSectionContent {
+        gap: 35px;
+    }
+
+    .experienceContent, .codeContent {
+        width: 300px;
+    }
+
+    .experienceContent {
+        margin-top: 45px;
+    }
+
+    .codeContent h2 {
+        font-size: 20px;
+    }
+
+    .codeContent {
+        margin-left: -100px;
+    }
+
+    .projects {
+        width: 120px;
+        margin-right: -50px;
+    }
+
+    .sectionSecond {
+        height: 70px;
+    }
+}
+
+@media (max-width: 531px) {
+    .navigation {
+        display: none;
+    }
+
+    .sectionText {
+        margin-left: -150px;
+    }
+
+    .sectionFirstContent p {
+        margin-left: -100px;
+    }
+
+    .secondSectionContent h1, .secondSectionContent h2 {
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .secondSectionContent p {
+        width: 170px;
+        font-size: 18px;
+    }
+
+    .githubLink {
+        width: 170px;
+    }
+
+    .githubLink p {
+        padding: 3px 10px 0 5px;
+    }
+
+    .githubLink a {
+        font-size: 15px;
+    }
+
+    .secondEducationContent h2 {
+        font-size: 12px;
+        border-radius: 25px;
+        padding: 5px;
+    }
+
+    .educationContent {
+        padding-left: 10px;
+    }
+
+    .secondEducationContent {
+        padding-right: 10px;
+    }
+
+    .sectionSecond {
+        height: 70px;
+    }
+
+    .codeContent {
+        margin-left: -50px;
+    }
+
+}
+
+@media (max-width: 471px) {
+    .sectionText h2 {
+        margin-left: -80px;
+    }
+
+    .sectionFirst img {
+        height: 300px;
+    }
+
+    .sectionFirstContent p {
+        margin-left: -150px;
+    }
+
+    .projects {
+        margin-left: -100px;
+    }
+
+    .secondSectionContent {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .secondSectionContent div:nth-child(1) {
+        margin-top: 20px;
+    }
+
+    .secondPhoto {
+        margin-top: 0;
+        height: 370px;
+    }
+
+    .githubLink {
+        width: 175px;
+    }
+
+    .secondPhoto img {
+        margin-top: 10px;
+    }
+
+    .footerContent {
+        gap: 30px;
+    }
+
+    .main-footer a, .main-footer h2 {
+        font-size: 15px;
+    }
+
+    .sectionFourth {
+        height: 1000px;
+    }
+
+    .skillsContent {
+        flex-direction: row;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sectionFourthContent {
+        flex-direction: column;
+    }
+
+    .experienceContent {
+        height: 300px;
+    }
+
+    .experienceContent h2 {
+        font-size: 30px;
+    }
+
+    .educationContent h2 {
+        padding: 10px 0 0 10px;
+        margin-top: 50px;
+    }
+
+    .degree h2, .courses h2 {
+        font-size: 15px;
+        margin-top: 30px;
+        padding: 10px 0 0 0 ;
+    }
+
+    .work h2, .freelancer h2 {
+        font-size: 20px;
+        padding: 10px 0 0 10px;
+        margin-top: 0;
+    }
+
+    .secondEducationContent h2:nth-child(1) {
+        text-align: center;
+    }
+
+    .softSkills {
+        margin-top: 5px;
+    }
+    .hardSkills {
+        margin-top: -30px;
+    }
+
+    .sectionFifth {
+        height: 900px;
+    }
+
+    .secondEducationContent {
+        padding: 0;
+    }
+
+    .fifthSectionContent {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 0;
+    }
+
+    .codeContent, .projects {
+        margin: 0;
+    }
+}

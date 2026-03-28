@@ -4,8 +4,8 @@
 
 ## Contacts
 
-- Email: lera.luckaya778@gmail.com  
-- Phone number: +375 (25) 789-45-89  
+- Email: lera.luckaya77@gmail.com  
+- Phone number: +375 (25) 520-39-58  
 - Other: [GitHub](https://github.com/LVRMWT17)
 
 ---
@@ -18,8 +18,7 @@ I am a creative person who is ready to gain new knowledge in the field of fronte
 
 - Communication skills. I easily get in touch with people.
 - Responsibility. I do any job like for myself.
-- Creativity. I take a creative approach to complete tasks.
-- Literacy.
+- Creativity.
 - Excellent memory. I easily remember the information I'm interested in. Visual memory is even better.
 - Can structure information quickly.
 - Fast printing.
@@ -33,6 +32,8 @@ I am a creative person who is ready to gain new knowledge in the field of fronte
 
 - Viewing and processing data
 - Creation of reports and tables
+- Managing products and information
+- Analyzing sales dynamics
 
 ---
 
@@ -51,6 +52,7 @@ I am a creative person who is ready to gain new knowledge in the field of fronte
 - HTML/CSS
 - Git
 - MySQL
+- API requests
 
 ---
 
@@ -58,3 +60,11 @@ I am a creative person who is ready to gain new knowledge in the field of fronte
 
 - "Commercial Software Development — JavaScript Certificate", 2025
 - Advanced English level
+
+### Hobbies
+
+- Reading
+- Drawing
+- DIY
+- Creative writing
+- Learning languages
