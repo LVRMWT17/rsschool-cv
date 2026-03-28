@@ -73,7 +73,7 @@
               <img src="icons8-звезда-100.png" alt="">
               <h2>Jan 2024 - March 2024</h2>
             </div>
-            <p>Itransition, "Commercial Software Development — JavaScript Certificate"</p>
+            <p>Itransition, "Commercial Software Development"</p>
           </div>
           <div class="experienceContent">
             <h2>Experience</h2>
@@ -126,19 +126,22 @@
           <h2>Code example</h2>
           <pre>
             <code>
-              useEffect(() => {
-                if (currentRoundData?.words) {
-                    const array = currentRoundData.words;
-                    const sentencesData = array.map(item => ({
-                        id: item.id,
-                        text: item.textExample
-                    }));
-                    setSentences(sentencesData);
-                    if (sentencesData.length > 0) {
-                        setDisplayedSentences([0]);
-                    }
-                }
-            }, [currentRoundData]);
+      useEffect(() => {
+        if (currentRoundData?.words) {
+          const array = currentRoundData
+          .words;
+          const sentencesData = array.map
+          (item =>
+            ({
+              id: item.id,
+              text: item.textExample
+            }));
+            setSentences(sentencesData);
+            if (sentencesData.length > 0) 
+            { setDisplayedSentences([0]);
+            }
+        }
+    }, [currentRoundData]);
             </code>
           </pre>
           <h2>Languages</h2>
@@ -156,7 +159,7 @@
             <li><a href="https://lvrmwt17.github.io/not-fight-club/">Fight game</a></li>
             <li><a href="https://rolling-scopes-school.github.io/lvrmwt17-JSFEPRESCHOOL2025Q2/pair-em-up/">"Pair them up" game</a></li>
           </ul>
-          <h2>Hobbies & Interests</h2>
+          <h2>Hobbies</h2>
           <ul>
             <li>Reading</li>
             <li>Drawing</li>
