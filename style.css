@@ -32,7 +32,7 @@ li, p {
     margin: 20px 0 0 20px;
 }
 
-.main-header {
+.main-header, .main-footer {
     height: 100px;
     background-color: #4b3935;
     display: flex;
@@ -73,6 +73,11 @@ li, p {
     text-decoration: none;
     color: #fbefe1;
     padding: 12px;
+}
+
+.navigation a:hover {
+    color: #f6a64a;
+    transition: transform 3s ease;
 }
 
 .sectionFirst {
@@ -159,7 +164,7 @@ li, p {
 
 .githubLink a:hover {
     color: #4b3935;
-    transition: transform 4s;
+    transition: transform 3s ease;
 }
 
 .secondPhoto {
@@ -179,9 +184,15 @@ li, p {
     width: 300px;
 }
 
-.secondPhoto p {
+.secondPhoto ul {
+    list-style-type: none;
+    margin-top: 25px;
+}
+
+.secondPhoto li {
     font-size: 25px;
     color: #fbefe1;
+    margin-top: 15px;
 }
 
 .secondSectionContent img {
@@ -192,7 +203,113 @@ li, p {
 
 .sectionFourth {
     height: 700px;
-    background-color: #8c9657;
+    background-color: #546745;
+}
+
+.sectionFourthContent {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 130px;
+}
+
+.educationContent h2 {
+    font-size: 55px;
+    margin-top: 90px;
+    color: #010b13;
+    -webkit-text-stroke: 1px #fbefe1;
+}
+
+.degree h2, .courses h2 {
+    font-size: 25px;
+    margin-top: 40px;
+    margin-left: 10px;
+    color: #fbefe1;
+    -webkit-text-stroke: 0;
+}
+
+.educationList img {
+    height: 25px;
+    width: auto;
+    margin-top: 42px;
+}
+
+.educationList p {
+    margin-left: 10px;
+    letter-spacing: 1px;
+    margin-top: 5px;
+}
+
+.degree, .courses {
+    display: flex;
+    flex-direction: row;
+}
+
+.experienceContent {
+    width: 550px;
+    height: 350px;
+    background-color:#fbb728;
+    margin-top: 21px;
+}
+
+.experienceContent h2 {
+    -webkit-text-stroke: 0;
+    color: #010b13;
+    font-size: 45px;
+    margin-top: 0;
+    padding: 50px 0 0 50px;
+}
+
+.experienceContent p {
+    font-size: 25px;
+    padding: 15px 0 0 50px;
+}
+
+.work h2, .freelancer h2 {
+    -webkit-text-stroke: 1px #282a2c;
+    color:#fbefe1;
+    font-size: 25px;
+    margin-top: 10px;
+    padding: 35px 0 0 50px;
+}
+
+.secondEducationContent {
+    margin-top: 190px;
+}
+
+.secondEducationContent h2 {
+    font-size: 40px;
+    color:#fbb728;
+    background-color:#010b13;
+    border-radius: 25px;
+    padding: 20px;
+}
+
+.softSkills, .hardSkills {
+    margin-top: 50px;
+}
+
+.softSkills h2, .hardSkills h2 {
+    font-size: 25px;
+    color: #fbefe1;
+    background-color: #546745;
+    padding: 0; 
+    letter-spacing: 2px;
+}
+
+.skillsContent {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.skillsContent ul {
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+.skillsContent li {
+    letter-spacing: 2px;
 }
 
 .sectionFifth {
